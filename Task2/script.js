@@ -1,8 +1,8 @@
 // Function that returns a string representing a cup of green tea
-const prepareGreenTea = () => 'greenTea';
+const prepareGreenTea = () => 'greenTea ';
 
 // Function that returns a string representing a cup of black tea
-const prepareBlackTea = () => 'blackTea';
+const prepareBlackTea = () => 'blackTea ';
 
 /*
 Given a function (representing the tea type) and number of cups needed, the
@@ -20,11 +20,16 @@ const getTea = (prepareTea, numOfCups) => {
 };
 
 // Only change code below this line
-const tea4GreenTeamFCC = null;
-const tea4BlackTeamFCC = null;
+const tea4GreenTeamFCC = getTea(prepareGreenTea,27);
+const tea4BlackTeamFCC = getTea(prepareBlackTea,13);
 // Only change code above this line
 
 console.log(
   tea4GreenTeamFCC,
   tea4BlackTeamFCC
 );
+function getOutput() {
+  document.getElementById("output1").innerText =  tea4GreenTeamFCC;
+  document.getElementById("output2").innerText =  tea4BlackTeamFCC;
+ 
+}
