@@ -12,4 +12,4 @@ The some method would return true.
 
 Use the some method inside the checkPositive function to check if any element in arr is positive. The function should return a Boolean value.
 
-chrome-extension://gcfefmncefkaghcobeocaekopmmpofmc/popup/popup.html#/video?id=115086
+https://drive.500apps.com/e84c6a60

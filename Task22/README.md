@@ -12,4 +12,4 @@ The every method would return false here.
 
 Use the every method inside the checkPositive function to check if every element in arr is positive. The function should return a Boolean value.
 
-chrome-extension://gcfefmncefkaghcobeocaekopmmpofmc/popup/popup.html#/video?id=115085
+https://drive.500apps.com/bd84458c

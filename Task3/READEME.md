@@ -14,4 +14,5 @@ A Window object is made up of tabs, and you usually have more than one Window op
 
 The code editor shows an implementation of this functionality with functions for tabOpen(), tabClose(), and join(). The array tabs is part of the Window object that stores the name of the open pages.
 
-chrome-extension://gcfefmncefkaghcobeocaekopmmpofmc/popup/popup.html#/video?id=115041
+
+https://drive.500apps.com/79d307da
