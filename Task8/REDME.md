@@ -4,3 +4,4 @@ In other words, map is a pure function, and its output depends solely on its inp
 
 You might learn a lot about the map method if you implement your own version of it. It is recommended you use a for loop or Array.prototype.forEach().
 
+chrome-extension://gcfefmncefkaghcobeocaekopmmpofmc/popup/popup.html#/video?id=115196
