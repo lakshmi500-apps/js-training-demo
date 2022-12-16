@@ -2,8 +2,8 @@
 const bookList = ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"];
 
 // Change code below this line
-function add(bookList, bookName) {
-  let newBooks= [...bookList];
+function add( arr, bookName) {
+  let newBooks= [...arr];
   newBooks.push(bookName);
   return newBooks;
   
@@ -13,19 +13,23 @@ function add(bookList, bookName) {
 // Change code below this line
 function remove(arr, bookName) {
    let newArr = [...arr];
-  const book_index = bookList.indexOf(bookName);
-  if (book_index >= 0) {
-    bookList.splice(book_index, 1);
-    return bookList;
+  if (newArr.indexOf(bookName) >= 0) {
+    newArr.splice(newArr.indexOf(bookName), 1);
+    return newArr;
 
     // Change code above this line
     }
 }
 let updatedBooks1 = add(bookList, "A Brief History of Time");
 let updatedBooks2 = remove(bookList, "On The Electrodynamics of Moving Bodies");
-let updatedBooks3 =remove(add(bookList, "A Brief History of Time"));
+let updatedBooks3 = remove(add(bookList, "A Brief History of Time"));
 
+console.log(updatedBooks1);
+console.log(updatedBooks2);
 console.log(bookList);
 function getOutput() {
-    document.getElementById("output").innerText =  bookList(4) ;
+    document.getElementById("output").innerText = updatedBooks1 ;
+    document.getElementById("output1").innerText = updatedBooks2 ;
+    document.getElementById("output2").innerText = bookList;
+    
   }
